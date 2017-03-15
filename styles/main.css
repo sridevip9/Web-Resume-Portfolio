@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgrey;
+}
+
+.container {
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.section h1 {
+    margin: 30px;
+    color: #bc2121;
+}
+
+.image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px double black;
+    width: 600px;
+}
+
+.image1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px double black;
+    width: 600px;
+}
+
+.skill {
+    display: inline;
+    margin: 70px;
+}
+
+.skill button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    background-color: #396384;
+    border: 1px solid black;
+    color: white;
+}
+
+.skill button:hover {
+    background-color: #3bddef;
+    color: #bc2121;
+    text-transform: uppercase;
+}
+
+.skill p {
+    display: none;
+}
+
+.contact p {
+    font-size: 20px;
+    margin: 30px;
+}
+
+.aside h2,
+h3 {
+    display: inline;
+    margin: 10px;
+}
+
+.about {
+    margin: 20px;
+}
+
+.about h2 {
+    color: #0909f2;
+}
